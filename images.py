@@ -22,7 +22,7 @@ pic_arr = np.asarray(picture)   #converts the image to an array of values
 pic_arr_second = Image.open("./ac-color-shuffle-2-bgra-1.jpg")
 nparray = np.asarray(pic_arr_second)
 
-plt.imshow(nparray[:,:,0])
+plt.imshow(nparray[:,:,0],cmap='gray')
 plt.show()
 #print(nparray[:,:,:])
 
