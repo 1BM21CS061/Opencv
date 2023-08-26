@@ -8,9 +8,9 @@ img = cv2.imread("KOA_Nassau_2697x1517.jpg")
 
     cv2.waitKey()
 
-    if cv2.waitKey(1000)==ord('q'): 
-        print(ord('q'))                 #waits for a user to enter a key in the specified time frame
-        break                           #returns the hexcode value of the pressed key'''
+    if cv2.waitKey(1000)==ord('q'):     #waits for a user to enter a key in the specified time frame
+        print(ord('q'))                 #returns the unicode value of the pressed key
+        break                           '''
 
 img = np.zeros(shape=(900,900,3),dtype=np.int16)
 
