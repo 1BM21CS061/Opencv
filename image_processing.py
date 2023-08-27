@@ -28,13 +28,3 @@ display(bk,"mask_c")
 display(cv2.bitwise_and(img,img,mask=mask_img),"result")
 
 #print(bk.shape)
-'''img[:,:,0:2] = 0
-display(img,"isolated")
-img_gray = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
-display(img_gray,"grayed")
-
-mask_inv = cv2.bitwise_not(img_gray)
-display(mask_inv,"mask")
-
-bk = cv2.bitwise_or(img,img,mask= mask_inv)
-display(bk,"answer")'''
