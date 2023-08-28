@@ -8,7 +8,7 @@ def display(img,name):
 
         if cv2.waitKey(0) == ord('q'):
             cv2.destroyAllWindows()
-            break
+            return
 
 img = cv2.imread("./41g7KY1DWgL._AC_UF1000,1000_QL80_.jpg")
 
